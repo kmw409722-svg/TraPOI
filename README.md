@@ -6,10 +6,15 @@ This repository contains the implementation of **TraPOI**, a traffic-aware LLM f
 
 ## Data Preparation
 
-Download the POI check-in and traffic datasets from Google Drive:
+Download the TraPOI dataset from Google Drive:
 
-- [POI check-in data](<POI_CHECKIN_GOOGLE_DRIVE_URL>)
-- [Traffic data](<TRAFFIC_GOOGLE_DRIVE_URL>)
+- [TraPOI Dataset](https://drive.google.com/drive/folders/1xXarJKVwjUZdMI-_juGhHE2iSWu0Tbz-?usp=sharing)
+
+Due to the large size of the raw traffic dataset, only the data for District 03 are provided in the Google Drive folder.
+
+The raw traffic data for the remaining districts (Districts 04, 05, 06, 07, 08, 10, 11, and 12) can be downloaded from the Caltrans Performance Measurement System (PeMS):
+
+- [Caltrans PeMS](http://pems.dot.ca.gov)
 
 POI check-in data are preprocessed following [LLM4POI](https://github.com/neolifer/LLM4POI).
 
