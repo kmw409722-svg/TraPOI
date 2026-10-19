@@ -109,9 +109,9 @@ traffic_compact.pt
 
 `traffic_compact.pt` contains the extracted BiST traffic representations and the mapping from each requested time-station pair to its compact embedding index.
 
-## Multimodal LLM Training
+## LLM Training
 
-`finetune_poi_traffic_gps_sep_LLM_with_projector.py` trains the multimodal LLM using the prepacked question-answer examples, POI embeddings, traffic embeddings, and GPS embeddings.
+`finetune_poi_traffic_gps_sep_LLM_with_projector.py` trains the LLM using the prepacked question-answer examples, POI embeddings, traffic embeddings, and GPS embeddings.
 
 ### Run Training
 
